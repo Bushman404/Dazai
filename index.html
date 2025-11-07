@@ -734,7 +734,7 @@
             };
             this.blocks = [];
             this.state = this.STATES.LOADING;
-            this.winScore = 3;
+            this.winScore = 97;
             
             this.stage = new Stage();
             
@@ -770,7 +770,7 @@
             });
             
             this.winScoreInput.addEventListener('change', (e) => {
-                this.winScore = parseInt(e.target.value) || 3;
+                this.winScore = parseInt(e.target.value) || 97;
             });
             
             document.addEventListener('touchstart', e => {
